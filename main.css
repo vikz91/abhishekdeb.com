@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    margin-top: 10vh;
+    color: white;
+    opacity: .4;
+}
+
+nav li a {
+    font-size: 1em;
+    color: black !important;
+    opacity: .7;
+    transition: all ease-in 200ms;
+}
+
+nav li a:hover {
+    font-size: 1.2em;
+    color: white !important;
+    opacity: .9;
+}
+
+#footer {
+    bottom: -50px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
